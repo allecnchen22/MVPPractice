@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MVPPractice</string>
+    <string name="title_activity">臺北市公園景點列表</string>
+    <string name="title_refresh">重新整理</string>
+    <string name="title_close">離開程式</string>
+    <string name="alertdialog_close">關閉</string>
+    <string name="item_yearbuilt">景點建造年份：</string>
+    <string name="item_opentime">景點開放時間：</string>
+    <string name="snack_loading_error">無法讀取網路資料</string>
+    <string name="snack_empty_data">查無公園景點</string>
+    <string name="alertdialog_close_message">確定要退出程式？</string>
+    <string name="alertdialog_finish">確定退出</string>
+
+
+</resources>

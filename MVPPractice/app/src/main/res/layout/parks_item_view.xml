@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50pt"
+    >
+        <ImageView
+            android:id="@+id/img_parks_item"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            app:srcCompat="@mipmap/ic_launcher"
+            />
+
+        <LinearLayout
+            android:paddingTop="5pt"
+            android:paddingLeft="5pt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_parks_item_parkname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tv_parks_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:textColor="@color/colorPrimary"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tv_parks_item_yearbuild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tv_parks_item_opentime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+
+</LinearLayout>
